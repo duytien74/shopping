@@ -1,0 +1,43 @@
+.lg-input {
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-radius: 0px !important;
+    transition: all 200ms;
+}
+
+.lg-input:focus,
+.lg-input::after {
+    box-shadow: none !important;
+    border-bottom: 3px solid #45cafc !important;
+}
+
+.lg-btn {
+    border-radius: 25px !important;
+    font-size: 130% !important;
+    font-weight: bold !important;
+    background: linear-gradient(40deg, #45cafc, #303f9f) !important;
+}
+
+.lg-btn:hover {
+    background: linear-gradient(40deg, #aae0f4, #75abfc) !important;
+    color: black !important;
+    outline: none !important;
+}
+
+.cf-btn {
+	border-radius: 25px;
+	font-size: 130%;
+	font-weight: bold;
+	background: #dc3545;
+	border: none;
+}
+
+.cf-btn:hover {
+	background: #62141c;
+	border: none;
+}
+
+.modal-content {
+    font-family: 'Roboto Black', sans-serif !important;
+}
